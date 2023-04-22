@@ -2,6 +2,18 @@
 
 Using Docker and Kubernetes to make an easily deployable and portable blogging web-app using Flask and MongoDB.
 
+## Deployment
+
+To deploy this project 
+
+```bash
+1. Run 'pull_images.bat' to pull required images
+2. Run 'cleanup.bat' to delete all existing pods and deployments
+3. Run 'create_cluster.bat' batch file to create Kubernetes    cluster.
+   It will redirect you to "http://localhost:5001"
+4. Finally run 'cleanup.bat' again to remove all your clusters (if required)
+```
+
 Here is the UI and the final outcome of the program
 
 ## Initial Layout
@@ -24,14 +36,4 @@ Here is the UI and the final outcome of the program
 ![image](https://user-images.githubusercontent.com/93257735/233772509-753ec776-34a3-4545-a2f9-1208b5dfdaaa.png)
 
 
-## Deployment
 
-To deploy this project 
-
-```bash
-1. Run 'pull_images.bat' to pull required images
-2. Run 'cleanup.bat' to delete all existing pods and deployments
-3. Run 'create_cluster.bat' batch file to create Kubernetes    cluster.
-   It will redirect you to "http://localhost:5001"
-4. Finally run 'cleanup.bat' again to remove all your clusters (if required)
-```
