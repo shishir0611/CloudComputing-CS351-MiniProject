@@ -11,7 +11,6 @@ Here is the UI and the final outcome of the program
 
 ## Creating posts
 
-
 ![image](https://user-images.githubusercontent.com/93257735/233772350-90a5c7ba-0d14-46f9-b131-d6dd835517b7.png)
 
 
