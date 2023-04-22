@@ -1,6 +1,6 @@
 # CloudComputing-CS351-MiniProject
 
-Use Docker and Kubernetes to make an easily deployable and portable blogging web-app using Flask and MongoDB.
+Using Docker and Kubernetes to make an easily deployable and portable blogging web-app using Flask and MongoDB.
 
 Here is the UI and the final outcome of the program
 
